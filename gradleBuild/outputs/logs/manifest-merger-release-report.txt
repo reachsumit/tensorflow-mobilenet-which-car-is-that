@@ -1,0 +1,70 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:18:1-46:12
+INJECTED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:18:1-46:12
+MERGED from [org.tensorflow:tensorflow-android:1.2.0-preview] /home/sumit/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.2.0-preview.aar/45e2740d109e77e009b9cf39cbdf7ce5/AndroidManifest.xml:2:1-8:12
+INJECTED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:18:1-46:12
+	package
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:20:5-44
+	xmlns:android
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:18:11-69
+	android:versionCode
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:19:5-28
+		INJECTED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml
+		INJECTED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:22:5-65
+	android:name
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:22:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:23:5-60
+	android:name
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:23:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:24:5-70
+	android:name
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:24:19-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:25:5-80
+	android:name
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:25:22-78
+uses-sdk
+ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:27:5-29:41
+	android:targetSdkVersion
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:29:9-38
+	android:minSdkVersion
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:28:9-35
+application
+ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:31:5-44:19
+MERGED from [org.tensorflow:tensorflow-android:1.2.0-preview] /home/sumit/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.2.0-preview.aar/45e2740d109e77e009b9cf39cbdf7ce5/AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.2.0-preview] /home/sumit/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.2.0-preview.aar/45e2740d109e77e009b9cf39cbdf7ce5/AndroidManifest.xml:5:5-6:19
+	android:label
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:32:9-41
+	android:icon
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:33:9-38
+	android:allowBackup
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:31:18-44
+	android:theme
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:34:9-45
+activity#com.reachsumit.whichcaristhat.ClassifierActivity
+ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:36:9-43:20
+	android:screenOrientation
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:37:19-55
+	android:label
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:38:19-71
+	android:name
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:36:19-82
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:39:13-42:29
+action#android.intent.action.MAIN
+ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:41:27-74
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:18:1-46:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /home/sumit/Coding/android/tensorflow-for-poets-2/android/tfmobile/AndroidManifest.xml:18:1-46:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
