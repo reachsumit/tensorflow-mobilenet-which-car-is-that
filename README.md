@@ -8,6 +8,7 @@ Android app containing an Image classifier based on transfer learning CNN using 
 * The model is trained on Stanford's imagenet dataset of 196 cars. Dataset can be accessed here: http://ai.stanford.edu/~jkrause/cars/car_dataset.html  
 * The Cars dataset contains 16,185 images of 196 classes of cars. Full list of cars is present here: https://paste.ubuntu.com/26311458/  
 * This project is published as an Android app available on Play Store. [LINK](https://play.google.com/store/apps/details?id=com.reachsumit.whichcaristhat&hl=en)  
+* For further details, please have a look at the Medium blogpost I wrote for this project. https://medium.com/@sumit.arora/training-a-neural-network-using-mobilenets-in-tensorflow-for-image-classification-on-android-14f2792f64c1
 
 ## Screenshots
 App on Play store  
